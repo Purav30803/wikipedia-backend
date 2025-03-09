@@ -1,3 +1,689 @@
 2025-03-08T15:09:27.100188-0500 - INFO - Incoming request: GET http://127.0.0.1:8000/api | Client: 127.0.0.1
 2025-03-08T15:09:27.103252-0500 - INFO - API was accessed.
 2025-03-08T15:09:27.104458-0500 - INFO - Completed request: GET http://127.0.0.1:8000/api | Status: 200 | Time: 0.00s
+2025-03-08T18:31:19.411934-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:31:19.418183-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 404 | Time: 0.00s
+2025-03-08T18:34:15.432040-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:34:15.432040-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 404 | Time: 0.00s
+2025-03-08T18:34:44.318574-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:34:44.321149-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:34:44.322326-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:34:44.335798-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 422 | Time: 0.01s
+2025-03-08T18:35:02.284354-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:35:02.284354-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:35:02.290714-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:35:02.290714-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 422 | Time: 0.00s
+2025-03-08T18:36:31.215812-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:36:31.217865-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:36:31.224802-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:36:31.253251-0500 - INFO - Searching for search='123' in the model.
+2025-03-08T18:36:31.261709-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.04s
+2025-03-08T18:39:26.401779-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:39:26.402296-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:39:26.411038-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:39:26.414280-0500 - INFO - Searching for search='123' in the model.
+2025-03-08T18:39:26.418667-0500 - ERROR - Failed to search for search='123' in the model.
+2025-03-08T18:39:26.420831-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T18:40:36.682432-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:40:36.688206-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.01s
+2025-03-08T18:40:36.690777-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:40:36.698071-0500 - INFO - Searching for search='123' in the model.
+2025-03-08T18:40:36.698071-0500 - ERROR - Failed to search for search='123' in the model.
+2025-03-08T18:40:36.700136-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T18:41:22.313451-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:41:22.315084-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:41:22.320813-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:41:22.326449-0500 - INFO - Searching for search='123' in the model.
+2025-03-08T18:41:22.326449-0500 - ERROR - Failed to search for search='123' in the model.
+2025-03-08T18:41:22.326449-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T18:42:53.251139-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:42:53.254444-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:42:53.260381-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:42:53.262252-0500 - INFO - Searching for search='123' in the model.
+2025-03-08T18:42:53.262252-0500 - INFO - Search query: 123 from IP: 127.0.0.1
+2025-03-08T18:42:53.268401-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T18:44:40.528150-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:44:40.530539-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:44:40.533475-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:44:40.542337-0500 - INFO - Searching for search='123' from IP: 127.0.0.1.
+2025-03-08T18:44:40.542337-0500 - INFO - Received search query: '123' from IP: 127.0.0.1
+2025-03-08T18:44:40.546737-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T18:44:44.463872-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 127.0.0.1
+2025-03-08T18:44:44.463872-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:44:44.472854-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 127.0.0.1
+2025-03-08T18:44:44.475550-0500 - INFO - Searching for search='123' from IP: 127.0.0.1.
+2025-03-08T18:44:44.475550-0500 - INFO - Received search query: '123' from IP: 127.0.0.1
+2025-03-08T18:44:44.475550-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.00s
+2025-03-08T18:45:50.963509-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 203.0.113.195
+2025-03-08T18:45:50.966054-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:45:50.971370-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 203.0.113.195
+2025-03-08T18:45:50.974664-0500 - INFO - Searching for search='123' from IP: 203.0.113.195.
+2025-03-08T18:45:50.976187-0500 - INFO - Received search query: '123' from IP: 203.0.113.195
+2025-03-08T18:45:50.977340-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.00s
+2025-03-08T18:55:15.203300-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 203.0.113.195
+2025-03-08T18:55:15.203300-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T18:55:15.212622-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 203.0.113.195
+2025-03-08T18:55:15.220944-0500 - INFO - Received search query: '123' from IP: 203.0.113.195 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T18:55:15.226705-0500 - INFO - Received search query: '123' from IP: 203.0.113.195 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T18:55:17.002595-0500 - ERROR - Error occurred while processing search '123': (psycopg2.errors.UndefinedTable) relation "search_history" does not exist
+LINE 1: INSERT INTO search_history (ip_address, search_query, result...
+                    ^
+
+[SQL: INSERT INTO search_history (ip_address, search_query, result, user_agent, region) VALUES (%(ip_address)s, %(search_query)s, %(result)s, %(user_agent)s, %(region)s) RETURNING search_history.id, search_history.timestamp]
+[parameters: {'ip_address': '203.0.113.195', 'search_query': '123', 'result': 'positive', 'user_agent': 'PostmanRuntime/7.43.0', 'region': None}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-08T18:55:17.011965-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.80s
+2025-03-08T19:02:51.895888-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 203.0.113.195
+2025-03-08T19:02:51.900965-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:02:51.900965-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 203.0.113.195
+2025-03-08T19:02:51.910676-0500 - INFO - Received search query: '123' from IP: 203.0.113.195 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:02:51.911923-0500 - INFO - Received search query: '123' from IP: 203.0.113.195 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:02:54.153413-0500 - INFO - Search result stored for query '123'
+2025-03-08T19:02:54.260476-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.36s
+2025-03-08T19:03:36.023121-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 192.168.2.39
+2025-03-08T19:03:36.023121-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:03:36.032084-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 192.168.2.39
+2025-03-08T19:03:36.036686-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:03:36.036686-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:03:36.870480-0500 - INFO - Search result stored for query '123'
+2025-03-08T19:03:36.962707-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.93s
+2025-03-08T19:04:07.678707-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 172.19.192.1
+2025-03-08T19:04:07.680914-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:04:07.683300-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 172.19.192.1
+2025-03-08T19:04:07.690372-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:04:07.690819-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:04:08.296503-0500 - INFO - Search result stored for query '123'
+2025-03-08T19:04:08.411010-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.73s
+2025-03-08T19:07:26.271117-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 172.19.192.1
+2025-03-08T19:07:26.271117-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:07:26.276031-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 172.19.192.1
+2025-03-08T19:07:26.282356-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:07:26.284105-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:07:27.160802-0500 - INFO - Search result stored for query '123' from IP: 172.19.192.1
+2025-03-08T19:07:27.195556-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.92s
+2025-03-08T19:08:27.598242-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 172.19.192.1
+2025-03-08T19:08:27.598242-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:08:27.601780-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 172.19.192.1
+2025-03-08T19:08:27.608594-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:08:27.610103-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:08:29.781119-0500 - INFO - Search result stored for query '123' from IP: 172.19.192.1
+2025-03-08T19:08:29.818892-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.21s
+2025-03-08T19:08:48.602582-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 192.168.2.39
+2025-03-08T19:08:48.610021-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:08:48.611075-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 192.168.2.39
+2025-03-08T19:08:48.617397-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:08:48.617397-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:08:49.381895-0500 - INFO - Search result stored for query '123' from IP: 192.168.2.39
+2025-03-08T19:08:49.486493-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.88s
+2025-03-08T19:11:23.572037-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 192.168.2.39
+2025-03-08T19:11:23.576027-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:11:23.581037-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 192.168.2.39
+2025-03-08T19:11:23.589381-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:11:23.589381-0500 - INFO - Received search query: '123' from IP: 192.168.2.39 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:11:25.735463-0500 - INFO - Search result stored for query '123' from IP: 192.168.2.39
+2025-03-08T19:11:25.773945-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.19s
+2025-03-08T19:12:58.751205-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 172.19.192.1
+2025-03-08T19:12:58.753843-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:12:58.760025-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 172.19.192.1
+2025-03-08T19:12:58.762021-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:12:58.762021-0500 - INFO - Received search query: '123' from IP: 172.19.192.1 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:12:59.046467-0500 - INFO - Search result stored for query '123' from IP: 172.19.192.1
+2025-03-08T19:12:59.082465-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.32s
+2025-03-08T19:13:49.132673-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 134.201.250.155
+2025-03-08T19:13:49.140778-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:13:49.140778-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 134.201.250.155
+2025-03-08T19:13:49.152357-0500 - INFO - Received search query: '123' from IP: 134.201.250.155 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:13:49.152692-0500 - INFO - Received search query: '123' from IP: 134.201.250.155 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:13:49.926783-0500 - INFO - Search result stored for query '123' from IP: 134.201.250.155
+2025-03-08T19:13:50.030496-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.89s
+2025-03-08T19:14:09.926306-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:14:09.928323-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:14:09.932511-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:14:09.937956-0500 - INFO - Received search query: '123' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:14:09.937956-0500 - INFO - Received search query: '123' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:14:10.592553-0500 - INFO - Search result stored for query '123' from IP: 142.114.74.5
+2025-03-08T19:14:10.711148-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.78s
+2025-03-08T19:18:18.895860-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:18:18.895860-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:18:18.898862-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:18:18.901044-0500 - INFO - Received search query: '123' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:18:18.901044-0500 - INFO - Received search query: '123' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:18:19.873285-0500 - INFO - Search result stored for query '123' from IP: 142.114.74.5
+2025-03-08T19:18:19.964328-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.07s
+2025-03-08T19:28:58.168436-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:28:58.169940-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:28:58.170978-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:28:58.172123-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:28:58.172123-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:28:58.290894-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': (psycopg2.OperationalError) SSL SYSCALL error: EOF detected
+
+[SQL: INSERT INTO search_history (ip_address, search_query, result, user_agent, region) VALUES (%(ip_address)s, %(search_query)s, %(result)s, %(user_agent)s, %(region)s::JSON) RETURNING search_history.id, search_history.timestamp]
+[parameters: {'ip_address': '142.114.74.5', 'search_query': 'https://en.wikipedia.org/wiki/Virat_Kohli', 'result': 'positive', 'user_agent': 'PostmanRuntime/7.43.0', 'region': '{"ip": "142.114.74.5", "type": "ipv4", "continent_code": "NA", "continent_name": "North America", "country_code": "CA", "country_name": "Canada", "re ... (485 characters truncated) ... ca.svg", "country_flag_emoji": "\\ud83c\\udde8\\ud83c\\udde6", "country_flag_emoji_unicode": "U+1F1E8 U+1F1E6", "calling_code": "1", "is_eu": false}}'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-08T19:28:58.291897-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.12s
+2025-03-08T19:29:11.369983-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:29:11.371048-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:29:11.372878-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:29:11.374876-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:29:11.375381-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:29:13.285976-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T19:29:13.321698-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.95s
+2025-03-08T19:29:57.831502-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:29:57.831502-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:29:57.831502-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:29:57.831502-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:29:57.831502-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:29:58.386118-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5
+2025-03-08T19:29:58.417758-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.59s
+2025-03-08T19:31:11.486393-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:31:11.487376-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:31:11.488377-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:31:11.489882-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:31:11.489882-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:31:12.532670-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5
+2025-03-08T19:31:12.565218-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.08s
+2025-03-08T19:33:53.004548-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T19:33:53.006060-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T19:33:53.011127-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T19:33:53.018088-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:33:53.019201-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T19:33:54.018910-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5
+2025-03-08T19:33:54.053091-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.04s
+2025-03-08T21:14:58.640735-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:14:58.643977-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:14:58.650570-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:14:58.658675-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:14:58.658675-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:15:01.209948-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5
+2025-03-08T21:15:01.209948-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Judith_A._Boss': name 'region' is not defined
+2025-03-08T21:15:01.244951-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.59s
+2025-03-08T21:15:31.155772-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:15:31.155772-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:15:31.162013-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:15:31.166677-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:15:31.166677-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:15:32.178400-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Judith_A._Boss' from IP: 142.114.74.5
+2025-03-08T21:15:32.214128-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.05s
+2025-03-08T21:15:49.854678-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:15:49.854678-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:15:49.857090-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:15:49.862145-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:15:49.864159-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:15:50.864990-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T21:15:50.921326-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.06s
+2025-03-08T21:16:08.660141-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:16:08.660141-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:16:08.665867-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:16:08.667901-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:16:08.669920-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:16:09.155535-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5
+2025-03-08T21:16:09.195084-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.53s
+2025-03-08T21:16:32.204740-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:16:32.204740-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:16:32.210142-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:16:32.214372-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:16:32.214899-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:16:33.157748-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:16:33.214672-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.00s
+2025-03-08T21:17:30.525982-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:17:30.525982-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:17:30.533513-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:17:30.536073-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:17:30.536073-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:17:32.446405-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:17:32.550206-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.02s
+2025-03-08T21:17:59.514673-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:17:59.515806-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:17:59.518719-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:17:59.519226-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:17:59.519226-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:18:00.494923-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:18:24.910798-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:18:24.913937-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:18:24.914952-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:18:24.919121-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:18:24.919121-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:18:25.953971-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:18:25.986104-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.07s
+2025-03-08T21:20:02.189452-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:20:02.191673-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:20:02.194699-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:20:02.198039-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:20:02.198039-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:20:03.391217-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:20:03.425014-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.23s
+2025-03-08T21:20:25.634648-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:20:25.636684-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:20:25.644635-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:20:25.646085-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:20:25.646085-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:20:28.294012-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:20:28.327288-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.68s
+2025-03-08T21:22:01.351901-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:22:01.352280-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:22:01.354949-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:22:01.358441-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:22:01.360190-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:22:02.546431-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:22:02.584179-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.23s
+2025-03-08T21:24:24.127310-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:24:24.127310-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:24:24.131905-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:24:24.136253-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:24:24.136253-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:24:25.124723-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:24:25.181449-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.05s
+2025-03-08T21:28:27.840028-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:28:27.840028-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:28:27.846210-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:28:27.855911-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:28:27.855911-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:28:28.367041-0500 - ERROR - Error fetching data for https://en.wikipedia.org/wiki/List_of_sports: 403 Client Error: Scripted requests from your IP have been blocked, please see https://meta.wikimedia.org/wiki/User-Agent_policy. In case of further questions, please contact noc@wikimedia.org. for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/https%3A//en.wikipedia.org/wiki/List_of_sports/daily/20250207/20250308
+2025-03-08T21:28:30.154654-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:28:30.263981-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.42s
+2025-03-08T21:29:28.825229-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:29:28.825229-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:29:28.831078-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:29:28.835567-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:29:28.835567-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:29:29.316152-0500 - ERROR - Error fetching data for https://en.wikipedia.org/wiki/List_of_sports: 403 Client Error: Scripted requests from your IP have been blocked, please see https://meta.wikimedia.org/wiki/User-Agent_policy. In case of further questions, please contact noc@wikimedia.org. for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/List_of_sports/daily/20250207/20250308
+2025-03-08T21:29:30.988361-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:29:31.090398-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.26s
+2025-03-08T21:31:03.170071-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:31:03.170071-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:31:03.173828-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:31:03.175634-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:31:03.175634-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:31:05.197073-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:31:05.232371-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.06s
+2025-03-08T21:33:34.238879-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:33:34.238879-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:33:34.245400-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:33:34.251287-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:33:34.252959-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:33:34.584995-0500 - ERROR - Error fetching data for https://en.wikipedia.org/wiki/List_of_sports: 403 Client Error: Scripted requests from your IP have been blocked, please see https://meta.wikimedia.org/wiki/User-Agent_policy. In case of further questions, please contact noc@wikimedia.org. for url: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/https%3A//en.wikipedia.org/wiki/List_of_sports/daily/20250207/20250308
+2025-03-08T21:33:35.344679-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:33:35.386531-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.14s
+2025-03-08T21:34:53.897245-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:34:53.900873-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:34:53.905721-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:34:53.908728-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:34:53.908728-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:34:55.954858-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:34:55.990462-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.08s
+2025-03-08T21:35:17.501421-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:35:17.504316-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:35:17.505829-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:35:17.509809-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:35:17.509809-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:35:18.027207-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:35:18.068043-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.56s
+2025-03-08T21:35:22.490790-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:35:22.494723-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:35:22.494723-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:35:22.499355-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:35:22.499355-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:35:24.479058-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:35:24.514848-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.02s
+2025-03-08T21:36:32.364593-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:36:32.365781-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:36:32.365781-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:36:32.365781-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:36:32.372348-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:36:33.946169-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:36:33.985937-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.62s
+2025-03-08T21:39:53.486610-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T21:39:53.486610-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T21:39:53.490595-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T21:39:53.495500-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:39:53.495500-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T21:39:55.834956-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T21:39:55.934689-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.44s
+2025-03-08T22:02:49.519359-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:02:49.521606-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:02:49.526113-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:02:49.530544-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:02:49.531559-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:02:49.873865-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/List_of_sports': (psycopg2.OperationalError) SSL SYSCALL error: EOF detected
+
+[SQL: INSERT INTO search_history (ip_address, search_query, result, user_agent, region) VALUES (%(ip_address)s, %(search_query)s, %(result)s, %(user_agent)s, %(region)s::JSON) RETURNING search_history.id, search_history.timestamp]
+[parameters: {'ip_address': '142.114.74.5', 'search_query': 'https://en.wikipedia.org/wiki/List_of_sports', 'result': 'positive', 'user_agent': 'PostmanRuntime/7.43.0', 'region': '"DUMMY REGION"'}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-08T22:02:49.876170-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.35s
+2025-03-08T22:02:52.910339-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:02:52.911360-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:02:52.916039-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:02:52.918653-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:02:52.918653-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:02:54.423485-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/List_of_sports' from IP: 142.114.74.5
+2025-03-08T22:02:54.462401-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.55s
+2025-03-08T22:17:57.204023-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:17:57.205564-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:17:57.207140-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:17:57.213777-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:17:57.213777-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:17:59.596951-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:17:59.697218-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.49s
+2025-03-08T22:19:22.086127-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:19:22.088163-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:19:22.090742-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:19:22.094353-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:19:22.095705-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:19:23.908905-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:19:23.943000-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.85s
+2025-03-08T22:20:01.912747-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:20:01.912747-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:20:01.917779-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:20:01.928867-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:20:01.929432-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:20:03.259933-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:20:03.314279-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.40s
+2025-03-08T22:22:00.102119-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:22:00.104469-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:22:00.110093-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:22:00.111752-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:22:00.115976-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:22:01.567529-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:22:01.601219-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.49s
+2025-03-08T22:23:47.009562-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:23:47.024911-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.02s
+2025-03-08T22:23:47.041688-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:23:47.059283-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:23:47.059283-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:23:47.765753-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:23:49.416457-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:23:49.449078-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.41s
+2025-03-08T22:25:28.956868-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:25:28.958622-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:25:28.960629-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:25:28.966693-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:25:28.967364-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:25:29.581878-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:25:31.041958-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:25:31.099985-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.14s
+2025-03-08T22:27:47.011659-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:27:47.013232-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:27:47.016362-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:27:47.019522-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:27:47.019522-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:27:47.846611-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:27:49.053694-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:27:49.088356-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.07s
+2025-03-08T22:28:56.783892-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:28:56.783892-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:28:56.787935-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:28:56.792312-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:28:56.792312-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:28:57.475770-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:28:57.478697-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': 'int' object has no attribute 'count'
+2025-03-08T22:28:57.481970-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.69s
+2025-03-08T22:29:30.735247-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:29:30.735247-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:29:30.743211-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:29:30.743211-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:29:30.743211-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:29:31.092006-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:29:31.774011-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:29:31.808827-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.07s
+2025-03-08T22:30:31.400913-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:30:31.402115-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:30:31.404917-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:30:31.404917-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:31.408421-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:31.953284-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:30:31.961681-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.56s
+2025-03-08T22:30:36.930145-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:30:36.931897-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:30:36.933846-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:30:36.933846-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:36.933846-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:37.419611-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:30:37.419611-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.49s
+2025-03-08T22:30:53.073809-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:30:53.089828-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:30:53.091850-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:30:53.091850-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:53.091850-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:30:53.754756-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:30:53.762627-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.67s
+2025-03-08T22:31:28.653612-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:31:28.659307-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:31:28.659307-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:31:28.667668-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:28.668287-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:29.346815-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:31:29.353170-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.69s
+2025-03-08T22:31:30.775953-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:31:30.775953-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:31:30.791093-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:31:30.796249-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:30.797077-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:31.427897-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:31:31.436088-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.64s
+2025-03-08T22:31:54.136857-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:31:54.136857-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:31:54.144325-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:31:54.147284-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:54.147284-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:31:54.628703-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Virat_Kohli': Expecting value: line 1 column 1 (char 0)
+2025-03-08T22:31:54.628703-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.48s
+2025-03-08T22:32:21.238055-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:32:21.238055-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:32:21.238055-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:32:21.246248-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:32:21.246248-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:32:21.967252-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:32:22.902401-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:32:22.952426-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.71s
+2025-03-08T22:32:58.907782-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:32:58.909792-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:32:58.909792-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:32:58.909792-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:32:58.909792-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:32:59.452632-0500 - ERROR - Error fetching pageviews for Virat Kohli: 403
+2025-03-08T22:33:00.933276-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:33:00.994075-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.08s
+2025-03-08T22:34:06.812798-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:34:06.814334-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:34:06.841599-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:34:06.845788-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:34:06.845788-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:34:08.584259-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:34:08.619700-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.78s
+2025-03-08T22:34:39.331941-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:34:39.332974-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:34:39.332974-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:34:39.332974-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:34:39.340893-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:34:41.209131-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:34:41.250603-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.92s
+2025-03-08T22:37:19.152294-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:37:19.153432-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:37:19.156600-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:37:19.160670-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:37:19.160670-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:37:20.798450-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:37:20.839095-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.68s
+2025-03-08T22:38:12.512084-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:38:12.512084-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:38:12.512084-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:38:12.519431-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:38:12.519431-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:38:14.180062-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-08T22:38:14.221000-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.70s
+2025-03-08T22:38:35.056779-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:38:35.056779-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:38:35.062373-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:38:35.064906-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:38:35.064906-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:38:36.036942-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Elon_Musk' from IP: 142.114.74.5
+2025-03-08T22:38:36.080754-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.02s
+2025-03-08T22:38:59.109100-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:38:59.109100-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:38:59.114971-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:38:59.114971-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:38:59.120244-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:39:00.306743-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:39:00.358007-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.24s
+2025-03-08T22:40:24.676402-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:40:24.676402-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:40:24.684036-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:40:24.688508-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:40:24.688508-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:40:26.570009-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:40:26.598225-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.91s
+2025-03-08T22:40:59.656418-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:40:59.656418-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:40:59.659104-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:40:59.662554-0500 - INFO - Received search query: 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:40:59.662554-0500 - INFO - Received search query: 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:41:00.725138-0500 - INFO - Search result stored for query 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:41:00.779779-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.12s
+2025-03-08T22:43:06.093144-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:06.100744-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:06.100744-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:06.109084-0500 - INFO - Received search query: 'en.wkipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:06.110168-0500 - INFO - Received search query: 'en.wkipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:06.110168-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T22:43:11.674989-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:11.674989-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:11.674989-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:11.682179-0500 - INFO - Received search query: 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:11.683197-0500 - INFO - Received search query: 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:13.501835-0500 - INFO - Search result stored for query 'en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:43:13.536024-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.86s
+2025-03-08T22:43:18.172094-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:18.172094-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:18.176367-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:18.176367-0500 - INFO - Received search query: 'http://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:18.179722-0500 - INFO - Received search query: 'http://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:18.179722-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.00s
+2025-03-08T22:43:22.055037-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:22.056579-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:22.059675-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:22.062713-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:22.062713-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:23.168739-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:43:23.218132-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.16s
+2025-03-08T22:43:26.890571-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:26.890571-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:26.896813-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:26.902103-0500 - INFO - Received search query: 'https://en.wikipdia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:26.902103-0500 - INFO - Received search query: 'https://en.wikipdia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:26.905536-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T22:43:30.653213-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:30.653213-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:30.653213-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:30.663791-0500 - INFO - Received search query: 'https://en.wikipedia.org/wii/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:30.663791-0500 - INFO - Received search query: 'https://en.wikipedia.org/wii/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:30.663791-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.01s
+2025-03-08T22:43:35.972139-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:35.972139-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:35.975501-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:35.980393-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:35.980393-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:36.463667-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:43:36.498047-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.52s
+2025-03-08T22:43:38.615604-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:38.615604-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:38.622809-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:38.623821-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Mess' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:38.623821-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Mess' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:38.914131-0500 - ERROR - Error fetching pageviews for Lionel Mess: 404
+2025-03-08T22:43:39.079034-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Mess' from IP: 142.114.74.5
+2025-03-08T22:43:39.111973-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.49s
+2025-03-08T22:43:47.999947-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:43:47.999947-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:43:47.999947-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:43:48.008994-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:48.008994-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:43:49.124058-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:43:49.172629-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.17s
+2025-03-08T22:44:20.955070-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:44:20.955070-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:44:20.965747-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:44:20.970730-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:20.971571-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:22.545747-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:44:22.587122-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.62s
+2025-03-08T22:44:26.684929-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:44:26.687412-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:44:26.689988-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:44:26.695733-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lonel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:26.695733-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lonel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:26.981830-0500 - ERROR - Error fetching pageviews for Lonel Messi: 404
+2025-03-08T22:44:26.981830-0500 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lonel_Messi': unsupported operand type(s) for +: 'int' and 'str'
+2025-03-08T22:44:26.985601-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 0.30s
+2025-03-08T22:44:31.352491-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:44:31.352491-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:44:31.355231-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:44:31.360882-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:31.360882-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:32.386746-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:44:32.419883-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.06s
+2025-03-08T22:44:54.032938-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:44:54.032938-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:44:54.039909-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:44:54.040605-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:54.040605-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:56.041893-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:44:56.101226-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 2.06s
+2025-03-08T22:44:59.409555-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:44:59.411571-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:44:59.414486-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:44:59.418058-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Linel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:44:59.418058-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Linel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:45:00.245321-0500 - ERROR - Error fetching pageviews for Linel Messi: 404
+2025-03-08T22:45:00.649523-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Linel_Messi' from IP: 142.114.74.5
+2025-03-08T22:45:00.746617-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.33s
+2025-03-08T22:45:09.666024-0500 - INFO - Incoming request: POST http://localhost:8000/api/search | Client: 142.114.74.5
+2025-03-08T22:45:09.666024-0500 - INFO - Completed request: POST http://localhost:8000/api/search | Status: 307 | Time: 0.00s
+2025-03-08T22:45:09.674181-0500 - INFO - Incoming request: POST http://localhost:8000/api/search/ | Client: 142.114.74.5
+2025-03-08T22:45:09.675692-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:45:09.675692-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T22:45:10.687078-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T22:45:10.719567-0500 - INFO - Completed request: POST http://localhost:8000/api/search/ | Status: 200 | Time: 1.04s
+2025-03-08T23:02:55.237544-0500 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:02:55.241578-0500 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/on-this-day | Status: 405 | Time: 0.00s
+2025-03-08T23:03:03.347759-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:03:03.352049-0500 - INFO - Received request for on this day data.
+2025-03-08T23:03:03.353599-0500 - ERROR - Failed to get on this day data: module 'datetime' has no attribute 'today'
+2025-03-08T23:03:03.353599-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.01s
+2025-03-08T23:03:49.971853-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:03:49.975191-0500 - INFO - Received request for on this day data.
+2025-03-08T23:03:53.360407-0500 - ERROR - Failed to get on this day data: 'links'
+2025-03-08T23:03:53.366302-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 3.39s
+2025-03-08T23:04:52.240193-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-da | Client: 127.0.0.1
+2025-03-08T23:04:52.240193-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-da | Status: 404 | Time: 0.00s
+2025-03-08T23:04:54.146871-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:04:54.151053-0500 - INFO - Received request for on this day data.
+2025-03-08T23:04:54.450853-0500 - ERROR - Failed to get on this day data: 'links'
+2025-03-08T23:04:54.450853-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.30s
+2025-03-08T23:05:20.256260-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:05:20.256260-0500 - INFO - Received request for on this day data.
+2025-03-08T23:05:20.711742-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.46s
+2025-03-08T23:09:11.097650-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:09:11.099782-0500 - INFO - Received request for on this day data.
+2025-03-08T23:09:13.998169-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 2.90s
+2025-03-08T23:11:33.530995-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:11:33.534151-0500 - INFO - Received request for on this day data.
+2025-03-08T23:11:34.125314-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.59s
+2025-03-08T23:12:19.967233-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:12:19.970740-0500 - INFO - Received request for on this day data.
+2025-03-08T23:12:20.424354-0500 - ERROR - Failed to get on this day data: 'dict_items' object is not subscriptable
+2025-03-08T23:12:20.430601-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.46s
+2025-03-08T23:13:27.514180-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:13:27.517159-0500 - INFO - Received request for on this day data.
+2025-03-08T23:13:28.099096-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.58s
+2025-03-08T23:13:36.434039-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:13:36.434039-0500 - INFO - Received request for on this day data.
+2025-03-08T23:13:36.697391-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.26s
+2025-03-08T23:14:01.536526-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:14:01.536526-0500 - INFO - Received request for on this day data.
+2025-03-08T23:14:02.062799-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.53s
+2025-03-08T23:14:34.858098-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:14:34.862514-0500 - INFO - Received request for on this day data.
+2025-03-08T23:14:38.030871-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 3.17s
+2025-03-08T23:15:59.336348-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:15:59.337110-0500 - INFO - Received request for on this day data.
+2025-03-08T23:15:59.805740-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.47s
