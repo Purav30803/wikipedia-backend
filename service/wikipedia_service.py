@@ -175,3 +175,43 @@ def get_on_this_day_data():
     else:
         print(f"Error fetching data: {response.status_code}")
         return []
+
+import requests
+from datetime import datetime, timedelta
+
+def get_yesterdays_date():
+    # Get yesterday's date
+    yesterday = datetime.now() - timedelta(1)
+    return yesterday.strftime('%Y/%m/%d')
+
+def get_top_trending_articles():
+    # Get yesterday's date dynamically
+    yesterday_date = get_yesterdays_date()
+    
+    # Construct the URL for the API request
+    url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/{yesterday_date}"
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    }
+    
+    response = requests.get(url, headers=headers)
+    
+    if response.status_code == 200:
+        data = response.json()
+        
+        # Extract top 5 trending articles from the response
+        top_articles = []
+        
+        for article_data in data.get("items", [])[0].get("articles", [])[:5]:
+            if isinstance(article_data, dict):
+                top_articles.append({
+                    "title": article_data.get("article", "Unknown Title"),
+                    "pageviews": article_data.get("views", 0),
+                    "rank": article_data.get("rank", "Unknown Rank"),
+                    "article_url": f"https://en.wikipedia.org/wiki/{article_data.get('article', 'Unknown')}"
+                })
+        
+        return top_articles
+    else:
+        return f"Error: {response.status_code}"
