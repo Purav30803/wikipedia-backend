@@ -1270,3 +1270,43 @@ LINE 1: INSERT INTO search_history (ip_address, search_query, result...
 2025-03-10T08:38:06.452138-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/region-filter | Client: 142.114.74.5
 2025-03-10T08:38:06.452138-0400 - INFO - Region API from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
 2025-03-10T08:38:07.177189-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/region-filter | Status: 200 | Time: 0.73s
+2025-03-10T08:57:06.077027-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T08:57:06.082501-0400 - INFO - Received request for top trending articles.
+2025-03-10T08:57:06.316116-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.24s
+2025-03-10T08:57:09.037734-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T08:57:09.038947-0400 - INFO - Received request for top trending articles.
+2025-03-10T08:57:09.318736-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.28s
+2025-03-10T08:58:05.472724-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T08:58:05.472724-0400 - INFO - Received request for top trending articles.
+2025-03-10T08:58:06.762649-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 1.29s
+2025-03-10T08:58:38.243640-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T08:58:38.243640-0400 - INFO - Received request for top trending articles.
+2025-03-10T08:58:38.610467-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.37s
+2025-03-10T09:00:22.751749-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T09:00:22.755774-0400 - INFO - Received request for top trending articles.
+2025-03-10T09:00:23.227371-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.47s
+2025-03-10T09:02:14.381338-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T09:02:14.399746-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T09:02:14.401818-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T09:02:17.518186-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T09:02:17.614658-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 3.23s
+2025-03-10T09:02:47.719013-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T09:02:47.727002-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T09:02:47.727002-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T09:02:49.162600-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T09:02:49.264537-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.54s
+2025-03-10T09:03:10.066869-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-10T09:03:10.074929-0400 - INFO - Received request for on this day data.
+2025-03-10T09:03:13.536188-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 3.47s
+2025-03-10T09:03:16.729869-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-10T09:03:16.729869-0400 - INFO - Received request for on this day data.
+2025-03-10T09:03:20.498132-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 3.77s
+2025-03-10T09:03:36.281982-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T09:03:36.281982-0400 - INFO - Received request for top trending articles.
+2025-03-10T09:03:36.281982-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.00s
+2025-03-10T09:06:27.729714-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T09:06:27.737515-0400 - INFO - Received request for top trending articles.
+2025-03-10T09:06:28.201134-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.47s
+2025-03-10T09:07:25.882100-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/top-trending | Client: 142.114.74.5
+2025-03-10T09:07:25.891657-0400 - INFO - Received request for top trending articles.
+2025-03-10T09:07:26.460835-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/top-trending | Status: 200 | Time: 0.58s

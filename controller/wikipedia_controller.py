@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, Request
 from sqlalchemy.orm import Session
 from db.connect_db import get_db
 from schema.wikipedia_schema import SearchModel
-from service.wikipedia_service import search_in_model_service,get_on_this_day_data
+from service.wikipedia_service import search_in_model_service,get_on_this_day_data,get_top_trending_articles
 from loguru import logger
 from fastapi import Header
 from typing import Optional
@@ -41,4 +41,14 @@ def on_this_day():
         return result
     except Exception as e:
         logger.error(f"Failed to get on this day data: {e}")
+        return {"error": str(e)}
+    
+@wikipedia_router.get("/top-trending", summary="Get top trending articles")
+def top_trending():
+    logger.info("Received request for top trending articles.")
+    try:
+        result = get_top_trending_articles()
+        return result
+    except Exception as e:
+        logger.error(f"Failed to get top trending articles: {e}")
         return {"error": str(e)}
