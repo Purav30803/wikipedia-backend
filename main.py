@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 from config.env import Env
+from controller import wikipedia_controller
 from middleware.auth_middleware import CustomMiddleware
 
 
@@ -33,6 +34,9 @@ def read_root():
     database_url = Env.DATABASE_URL
     logger.info("API was accessed.")
     return {"message": "Welcome to the API", "database_url": database_url}
+
+
+app.include_router(wikipedia_controller.wikipedia_router, prefix="/api/wikipedia", tags=["wiki"])
 
 
 @app.on_event("startup")
