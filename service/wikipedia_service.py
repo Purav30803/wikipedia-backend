@@ -7,31 +7,75 @@ import datetime
 from datetime import datetime
 from config.env import Env
 from utils.wikipedia_helper import get_region_from_ip, get_wikipedia_features
+import joblib
+import numpy as np
 
-# Function to handle search query and store it in the database
+# Global model variable
+loaded_sklearn_model = None
+
+def load_sklearn_model_once():
+    global loaded_sklearn_model
+    try:
+        # Load your scikit-learn model (adjust path as needed)
+        loaded_sklearn_model = joblib.load("C:/Users/Purav Shah/My Drive/MAC/Term-2/ADT/Project/Code/backend/service/logistic_regression_model.pkl")
+        print("✅ scikit-learn model loaded successfully")
+    except Exception as e:
+        print(f"❌ Failed to load scikit-learn model: {e}")
+        loaded_sklearn_model = None
+
+# Load the scikit-learn model at startup
+load_sklearn_model_once()
+
+def preprocess_input(data: dict):
+    # Ensure all necessary keys are present
+    required_keys = ["title_length", "article_length", "num_categories", "num_links", "zero_pageviews_days", "recent_edit_days", "pageview_trend"]
+    if not all(key in data for key in required_keys):
+        raise ValueError(f"Missing one of the required keys: {required_keys}")
+    
+    features = [
+        data["title_length"],
+        data["article_length"],
+        data["num_categories"],
+        data["num_links"],
+        data["zero_pageviews_days"],
+        data["recent_edit_days"],
+        data["pageview_trend"],
+    ]
+    
+    print(f"Preprocessed input: {features}")
+    return np.array([features])
+
 def search_in_model_service(search: str, db: Session, ip_address: str, user_agent: Optional[str]):
+    global loaded_sklearn_model
     logger.info(f"Received search query: '{search}' from IP: {ip_address} using User-Agent: {user_agent}")
     
-    # check if the search query is empty
     if not search:
         return {"error": "Search query cannot be empty"}
     
-    # check if search query is wikepedia url (https is optional)
     if not search.startswith("https://en.wikipedia.org/wiki/") and not search.startswith("en.wikipedia.org/wiki/"):
         return {"error": "Search query must be a valid Wikipedia URL"}
     
+    # Check if the model is loaded
+    if not loaded_sklearn_model:
+        return {"error": "Model is not loaded. Please check the model path and ensure it is properly trained."}
+
     try:
-        # Placeholder search logic: assuming the search result is "positive"
-        search_result = "positive"
+        # Fetch Wikipedia data (you need to implement get_wikipedia_features)
         data = get_wikipedia_features(search)
-        ip=Env.ALLOW_IP or "No"
-        # Get region based on the IP address
-        if ip=="Yes":
-            region_data = get_region_from_ip(ip_address)
-        else:
-            region_data = 'DUMMY REGION'
+        input_data = preprocess_input(data)
         
-        # Create a new SearchHistory record to store the search information in the database
+        # Predict using the scikit-learn model
+        prediction = loaded_sklearn_model.predict(input_data)[0]
+        
+        # Interpret prediction (Adjust threshold if necessary)
+        search_result = "positive" if prediction == 1 else "negative"
+        print(f"Prediction: {prediction} => {search_result}")
+        
+        # Optional: Get region from IP address if needed
+        ip = Env.ALLOW_IP or "No"
+        region_data = get_region_from_ip(ip_address) if ip == "Yes" else "DUMMY REGION"
+        
+        # Log search history in DB
         search_history = SearchHistory(
             ip_address=ip_address,
             search_query=search,
@@ -41,13 +85,12 @@ def search_in_model_service(search: str, db: Session, ip_address: str, user_agen
             wikipedia_data=data
         )
         
-        # Add the search history record to the session and commit to the database
         db.add(search_history)
         db.commit()
         db.refresh(search_history)
         
-        # Log success and return a response with the result
         logger.info(f"Search result stored for query '{search}' from IP: {ip_address}")
+        
         return {
             "search_results": search_result,
             "ip_address": ip_address,
@@ -56,10 +99,10 @@ def search_in_model_service(search: str, db: Session, ip_address: str, user_agen
             "data": data
         }
     except Exception as e:
-        # Log error and rollback in case of any failure
         logger.error(f"Error occurred while processing search '{search}': {e}")
         db.rollback()
         return {"error": f"Failed to perform search: {e}"}
+
   
 
 def get_on_this_day_data():

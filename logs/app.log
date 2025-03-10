@@ -687,3 +687,586 @@ LINE 1: INSERT INTO search_history (ip_address, search_query, result...
 2025-03-08T23:15:59.336348-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
 2025-03-08T23:15:59.337110-0500 - INFO - Received request for on this day data.
 2025-03-08T23:15:59.805740-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.47s
+2025-03-08T23:34:18.559411-0500 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-08T23:34:18.573349-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T23:34:18.573349-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T23:34:21.046124-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-08T23:34:21.086761-0500 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 2.52s
+2025-03-08T23:34:32.282844-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:34:32.282844-0500 - INFO - Received request for on this day data.
+2025-03-08T23:34:35.751902-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 3.47s
+2025-03-08T23:34:41.371110-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/on-this-day | Client: 127.0.0.1
+2025-03-08T23:34:41.371110-0500 - INFO - Received request for on this day data.
+2025-03-08T23:34:42.011338-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/on-this-day | Status: 200 | Time: 0.64s
+2025-03-08T23:44:49.186391-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/region-filter | Client: 142.114.74.5
+2025-03-08T23:44:49.189312-0500 - INFO - Region API from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T23:44:49.777645-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/region-filter | Status: 200 | Time: 0.59s
+2025-03-08T23:44:52.413124-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/region-filter | Client: 142.114.74.5
+2025-03-08T23:44:52.420108-0500 - INFO - Region API from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T23:44:52.947478-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/region-filter | Status: 200 | Time: 0.53s
+2025-03-08T23:45:15.079738-0500 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/region-filter | Client: 142.114.74.5
+2025-03-08T23:45:15.084173-0500 - INFO - Region API from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-08T23:45:15.262891-0500 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/region-filter | Status: 200 | Time: 0.18s
+2025-03-09T00:09:57.311412-0500 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T00:09:57.321850-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T00:09:57.321850-0500 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T00:09:59.093665-0500 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-09T00:09:59.130784-0500 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.81s
+2025-03-09T22:43:49.180664-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T22:43:49.216428-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:43:49.224852-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:43:50.110493-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': [Errno 2] Unable to synchronously open file (unable to open file: name = '../../Model/logistic_regression_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-03-09T22:43:50.117999-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.93s
+2025-03-09T22:44:42.143933-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T22:44:42.146534-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:44:42.148874-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:44:42.169522-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': [Errno 2] Unable to synchronously open file (unable to open file: name = '../logistic_regression_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-03-09T22:44:42.174068-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.03s
+2025-03-09T22:45:02.567395-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T22:45:02.573736-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:45:02.578999-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:45:02.593000-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': [Errno 2] Unable to synchronously open file (unable to open file: name = 'logistic_regression_model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-03-09T22:45:02.600362-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.03s
+2025-03-09T22:46:08.009700-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T22:46:08.117740-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:46:08.166039-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T22:46:08.249132-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T22:46:08.257571-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.19s
+2025-03-09T23:12:18.251083-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:12:18.289248-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:12:18.297066-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:12:18.679283-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:12:18.764671-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.49s
+2025-03-09T23:27:48.523971-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:27:48.540242-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:48.540242-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:48.540242-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:27:48.540242-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.02s
+2025-03-09T23:27:49.813406-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:27:49.813406-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:49.813406-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:49.813406-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:27:49.813406-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:27:51.106385-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:27:51.114951-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:51.114951-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:27:51.114951-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:27:51.114951-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:28:19.869119-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:28:19.872120-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:28:19.873010-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:28:20.000828-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:28:20.001826-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.13s
+2025-03-09T23:28:21.185519-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:28:21.186511-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:28:21.186511-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:28:21.187488-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': Unknown layer: 'LogisticRegressionKeras'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-03-09T23:28:21.188489-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:30:54.253258-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:30:54.257248-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:30:54.258246-0400 - ERROR - Failed to process search: name 'logging' is not defined
+2025-03-09T23:30:54.258246-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:30:56.360059-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:30:56.361064-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:30:56.362063-0400 - ERROR - Failed to process search: name 'logging' is not defined
+2025-03-09T23:30:56.362063-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:31:13.009446-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:31:13.016254-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:31:13.016254-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:31:13.017255-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.01s
+2025-03-09T23:32:13.314242-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:32:13.323749-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:32:13.323749-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:32:13.325733-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.01s
+2025-03-09T23:32:14.496642-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:32:14.496642-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:32:14.504176-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:32:14.505013-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.01s
+2025-03-09T23:33:12.540521-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:33:12.540521-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:12.540521-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:12.540521-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:33:12.540521-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:33:51.176181-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:33:51.177182-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:51.178183-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:51.178183-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:33:51.179184-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:33:52.170884-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:33:52.172879-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:52.172879-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:33:52.172879-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:33:52.172879-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:34:12.124393-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:34:12.125413-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:12.125413-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:12.125413-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:34:12.126392-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:34:13.048640-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:34:13.050655-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:13.050655-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:13.050655-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:34:13.051639-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:34:51.774915-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:34:51.776907-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:51.776907-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:51.776907-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:34:51.777909-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:34:52.743966-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:34:52.744966-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:52.744966-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:34:52.744966-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:34:52.746222-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:39.412336-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:39.414335-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:39.414335-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:39.414335-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:39.415335-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:40.220717-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:40.222717-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:40.223748-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:40.223748-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:40.224711-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:40.885088-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:40.886088-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:40.887089-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:40.887089-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:40.887089-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:43.189678-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:43.191160-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:43.191160-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:43.191160-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:43.191160-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:44.046636-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:44.048651-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:44.048651-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:44.048651-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:44.049651-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:35:58.553797-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:35:58.553797-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:58.553797-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:35:58.553797-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:35:58.553797-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:36:50.143301-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:36:50.143301-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:36:50.143301-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:36:50.143301-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:36:50.143301-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:36:51.420098-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:36:51.420098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:36:51.420098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:36:51.420098-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:36:51.420098-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:37:02.560485-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:37:02.560485-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:02.560485-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:02.560485-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:37:02.560485-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:37:03.645553-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:37:03.645553-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:03.645553-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:03.645553-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:37:03.645553-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:37:45.232606-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:37:45.237867-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:45.237867-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:45.237867-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:37:45.237867-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:37:46.715943-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:37:46.715943-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:46.715943-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:37:46.715943-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:37:46.715943-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:38:05.519670-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:38:05.520678-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:38:05.521670-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:38:05.521670-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:38:05.521670-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:38:06.469731-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:38:06.470688-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:38:06.470688-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:38:06.470688-0400 - ERROR - Failed to process search: name 'loaded_model' is not defined
+2025-03-09T23:38:06.470688-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:40:03.380324-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:40:03.384351-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:40:03.384351-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:40:03.738329-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Lionel_Messi': 'NoneType' object has no attribute 'predict'
+2025-03-09T23:40:03.739311-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.36s
+2025-03-09T23:41:16.596443-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:41:16.601453-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:41:16.602451-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:41:16.603445-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.01s
+2025-03-09T23:44:12.852182-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:44:12.856119-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:44:12.856428-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:44:12.857038-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:44:14.540574-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:44:14.543569-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:44:14.543569-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:44:14.544583-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:46:01.238214-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:46:01.238214-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:46:01.238214-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:46:01.238214-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-09T23:47:49.128889-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:47:49.130928-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:47:49.131887-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:47:50.130901-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-09T23:47:50.160088-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.03s
+2025-03-09T23:48:25.114906-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:48:25.117954-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:48:25.117954-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:48:26.072919-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-09T23:48:53.409967-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:48:53.412954-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:48:53.412954-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:48:54.424635-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-09T23:49:23.054648-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:49:23.056629-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:23.056629-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:24.037510-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-09T23:49:24.076461-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.02s
+2025-03-09T23:49:36.200896-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:49:36.206860-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:36.207873-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:36.718267-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-09T23:49:36.753609-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.55s
+2025-03-09T23:49:59.254420-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:49:59.255420-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:59.256420-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:49:59.711717-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5
+2025-03-09T23:49:59.745717-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.49s
+2025-03-09T23:50:32.260853-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:50:32.276707-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:50:32.276707-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:50:32.723797-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:50:32.765441-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.50s
+2025-03-09T23:53:24.504638-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:53:34.184313-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:53:34.187312-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:53:34.187312-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:53:35.207243-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:53:35.240405-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.06s
+2025-03-09T23:54:20.259572-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:54:20.259572-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:20.259572-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:21.202947-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:54:21.237412-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.98s
+2025-03-09T23:54:35.664945-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:54:35.667944-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:35.667944-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:36.564568-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:54:36.595956-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.93s
+2025-03-09T23:54:50.395392-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:54:50.395392-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:50.395392-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:54:51.339156-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:54:51.373010-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.98s
+2025-03-09T23:57:21.222906-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-09T23:57:21.238646-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:57:21.238646-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-09T23:57:22.262094-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-09T23:57:22.297022-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.07s
+2025-03-10T00:02:19.589922-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:02:19.605559-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:02:19.605559-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:02:19.911764-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/Narsinh_Mehta': invalid index to scalar variable.
+2025-03-10T00:02:19.927537-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.32s
+2025-03-10T00:02:39.410782-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:02:39.415445-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:02:39.415445-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:02:44.019379-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Narsinh_Mehta' from IP: 142.114.74.5
+2025-03-10T00:02:44.050520-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 4.64s
+2025-03-10T00:03:15.275160-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:03:15.279160-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:03:15.280158-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:03:15.777029-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:03:15.821984-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.55s
+2025-03-10T00:03:41.971539-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:03:41.971539-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:03:41.971539-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:03:42.919987-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:03:42.963771-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.99s
+2025-03-10T00:04:05.948381-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:04:05.951417-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:05.951417-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:06.925087-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:04:06.960654-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.01s
+2025-03-10T00:04:24.539099-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:04:24.539099-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:24.539099-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:25.476149-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:04:25.508129-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.97s
+2025-03-10T00:04:46.208842-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:04:46.208842-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:46.208842-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:04:47.177086-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:04:47.209987-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.00s
+2025-03-10T00:05:01.917796-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:05:01.919762-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:05:01.919762-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:05:02.902408-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:05:02.943477-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.03s
+2025-03-10T00:05:28.989529-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:05:29.005261-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:05:29.005261-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:05:29.518473-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Lionel_Messi' from IP: 142.114.74.5
+2025-03-10T00:05:29.558979-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.56s
+2025-03-10T00:06:20.867858-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:06:20.869874-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:20.869874-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:21.406968-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5
+2025-03-10T00:06:21.439766-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.57s
+2025-03-10T00:06:35.813652-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:06:35.815673-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:35.815673-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:36.263911-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:06:36.294423-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.48s
+2025-03-10T00:06:55.684047-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:06:55.686054-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:55.686054-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:06:56.617346-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:06:56.648856-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.96s
+2025-03-10T00:07:11.678395-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:07:11.682477-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:07:11.683479-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:07:12.201456-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:07:12.239870-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.56s
+2025-03-10T00:11:20.144566-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:11:20.147601-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:20.148935-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:21.196081-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:11:21.232022-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.09s
+2025-03-10T00:11:27.885169-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:11:27.889154-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:27.890169-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:28.354860-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:11:28.391959-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.51s
+2025-03-10T00:11:39.856404-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:11:39.859098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:39.859098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesi' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:40.149487-0400 - ERROR - Error fetching pageviews for Template:WikiProject Indonesi: 404
+2025-03-10T00:11:40.346023-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesi' from IP: 142.114.74.5
+2025-03-10T00:11:40.383506-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.53s
+2025-03-10T00:11:44.712452-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:11:44.714454-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:44.715498-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:11:45.166429-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:11:45.204856-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.49s
+2025-03-10T00:15:24.650993-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:15:24.650993-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:15:24.650993-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:15:25.663340-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:15:25.706312-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.06s
+2025-03-10T00:15:53.355347-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:15:53.355347-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:15:53.355347-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:15:54.347326-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:15:54.382658-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.03s
+2025-03-10T00:16:07.672844-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:16:07.675064-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:16:07.676069-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:16:08.150529-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:16:08.185966-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.51s
+2025-03-10T00:17:00.472304-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:17:00.472304-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:17:00.472304-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:17:00.935482-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:17:00.970182-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.50s
+2025-03-10T00:19:14.984407-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:19:14.992765-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:19:14.992765-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:19:16.142149-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:19:16.184900-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.20s
+2025-03-10T00:19:32.652186-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:19:32.654394-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:19:32.655500-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:19:33.665295-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:19:33.705512-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.05s
+2025-03-10T00:20:13.668509-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:20:13.668509-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:20:13.668509-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:20:14.852869-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T00:20:14.889581-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.22s
+2025-03-10T00:22:17.357723-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:17.359723-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/T' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:17.359723-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/T' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:17.871785-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/T' from IP: 142.114.74.5
+2025-03-10T00:22:17.912023-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.55s
+2025-03-10T00:22:22.602750-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:22.604743-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:22.604743-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:22.605834-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.00s
+2025-03-10T00:22:25.156464-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:25.159479-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:25.160479-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:25.312296-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/': 'query'
+2025-03-10T00:22:25.314294-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.16s
+2025-03-10T00:22:28.911076-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:28.913539-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/'' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:28.913539-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/'' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:29.442686-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/'' from IP: 142.114.74.5
+2025-03-10T00:22:29.485046-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.57s
+2025-03-10T00:22:39.800901-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:39.801901-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/,' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:39.801901-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/,' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:40.274941-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/,' from IP: 142.114.74.5
+2025-03-10T00:22:40.313820-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.51s
+2025-03-10T00:22:45.001920-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:22:45.003918-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/,.,.,' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:45.003918-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/,.,.,' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:22:45.298479-0400 - ERROR - Error fetching pageviews for ,.,.,: 404
+2025-03-10T00:22:45.469564-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/,.,.,' from IP: 142.114.74.5
+2025-03-10T00:22:45.507217-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.50s
+2025-03-10T00:23:00.255524-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:23:00.256491-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:23:00.257890-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:23:00.549444-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:23:00.738820-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:23:00.775638-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.52s
+2025-03-10T00:26:01.976431-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:26:01.979415-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:01.979415-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:02.281673-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:26:02.975440-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:26:03.008904-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.03s
+2025-03-10T00:26:05.158199-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:26:05.160201-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:05.160201-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:05.436446-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:26:05.601471-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:26:05.636473-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.48s
+2025-03-10T00:26:52.638344-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:26:52.650606-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:52.650606-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:26:52.924895-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:26:53.544591-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:26:53.577608-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.94s
+2025-03-10T00:27:24.055647-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:27:24.058374-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:27:24.058374-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:27:24.338381-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:27:24.947631-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:27:24.979854-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.92s
+2025-03-10T00:27:26.873372-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:27:26.875877-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:27:26.875877-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:27:27.137407-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:27:27.302521-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:27:27.331937-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.46s
+2025-03-10T00:28:17.721874-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:28:17.724889-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:28:17.724889-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:28:18.011954-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:28:18.655161-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:28:18.687158-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.96s
+2025-03-10T00:28:58.986972-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:28:58.986972-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:28:58.986972-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:28:59.304453-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:28:59.941009-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:28:59.972679-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.99s
+2025-03-10T00:33:52.222101-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:33:52.225098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:33:52.225098-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:33:52.677890-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:33:52.677890-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl': This LogisticRegression instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-10T00:33:52.678857-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.46s
+2025-03-10T00:34:01.053837-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:34:01.055737-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:01.056775-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:01.342413-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:34:01.344412-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl': This LogisticRegression instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-10T00:34:01.347414-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.29s
+2025-03-10T00:34:02.094275-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:34:02.098278-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:02.099296-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:02.373362-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:34:02.374246-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl': This LogisticRegression instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-10T00:34:02.375245-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.28s
+2025-03-10T00:34:03.402693-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:34:03.405684-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:03.406710-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:34:03.680427-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:34:03.680427-0400 - ERROR - Error occurred while processing search 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl': This LogisticRegression instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-10T00:34:03.683537-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.28s
+2025-03-10T00:37:26.954515-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:37:26.956587-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:37:26.957482-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:37:27.242050-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T00:37:28.709972-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T00:37:28.742505-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.79s
+2025-03-10T00:37:37.845044-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:37:37.846472-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:37:37.847588-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:37:38.322636-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:37:38.358944-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.51s
+2025-03-10T00:38:24.623925-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T00:38:24.623925-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:38:24.623925-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T00:38:25.544011-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T00:38:25.578220-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 0.95s
+2025-03-10T08:16:26.739373-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:16:26.739373-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:16:26.739373-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:16:30.121210-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:16:30.257021-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 3.52s
+2025-03-10T08:17:11.061369-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:17:11.079119-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:11.079119-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:13.425852-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:17:13.477785-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 2.40s
+2025-03-10T08:17:23.321833-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:17:23.321833-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:23.321833-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:24.059185-0400 - ERROR - Error fetching pageviews for plllllplpplplplplplplplplplplplpl: 404
+2025-03-10T08:17:24.551450-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/plllllplpplplplplplplplplplplplpl' from IP: 142.114.74.5
+2025-03-10T08:17:24.662397-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.34s
+2025-03-10T08:17:50.656197-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:17:50.656197-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:50.656197-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:17:53.844757-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:17:53.947325-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 3.29s
+2025-03-10T08:19:10.809672-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:19:10.809672-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:19:10.809672-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:19:12.177740-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:19:12.281235-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.47s
+2025-03-10T08:20:30.176225-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:20:30.191878-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:20:30.191878-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:20:33.078085-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:20:33.174206-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 3.00s
+2025-03-10T08:20:45.428403-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:20:45.436617-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:20:45.436617-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:20:46.590023-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5
+2025-03-10T08:20:46.690330-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.26s
+2025-03-10T08:36:34.605998-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:36:34.605998-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:34.605998-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:37.808957-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Python_(programming_language)' from IP: 142.114.74.5
+2025-03-10T08:36:37.872499-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 3.27s
+2025-03-10T08:36:44.092452-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:36:44.095621-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:44.098750-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:45.347543-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T08:36:45.450329-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.36s
+2025-03-10T08:36:56.289075-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:36:56.289075-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:56.289075-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:36:57.429883-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Virat_Kohli' from IP: 142.114.74.5
+2025-03-10T08:36:57.533503-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.24s
+2025-03-10T08:37:18.362857-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:37:18.362857-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:37:18.362857-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:37:19.541020-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Yuzvendra_Chahal' from IP: 142.114.74.5
+2025-03-10T08:37:19.624493-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.26s
+2025-03-10T08:37:27.409068-0400 - INFO - Incoming request: POST http://localhost:8000/api/wikipedia/search | Client: 142.114.74.5
+2025-03-10T08:37:27.409068-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:37:27.409068-0400 - INFO - Received search query: 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:37:28.659633-0400 - INFO - Search result stored for query 'https://en.wikipedia.org/wiki/Template:WikiProject_Indonesia' from IP: 142.114.74.5
+2025-03-10T08:37:28.763220-0400 - INFO - Completed request: POST http://localhost:8000/api/wikipedia/search | Status: 200 | Time: 1.35s
+2025-03-10T08:38:06.452138-0400 - INFO - Incoming request: GET http://localhost:8000/api/wikipedia/region-filter | Client: 142.114.74.5
+2025-03-10T08:38:06.452138-0400 - INFO - Region API from IP: 142.114.74.5 using User-Agent: PostmanRuntime/7.43.0
+2025-03-10T08:38:07.177189-0400 - INFO - Completed request: GET http://localhost:8000/api/wikipedia/region-filter | Status: 200 | Time: 0.73s
