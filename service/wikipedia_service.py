@@ -3,12 +3,13 @@ from sqlalchemy.orm import Session
 from loguru import logger
 from typing import Optional
 from models.search import SearchHistory
-import datetime
-from datetime import datetime, timedelta
+from datetime import timedelta
+from datetime import datetime as dt
 from config.env import Env
 from utils.wikipedia_helper import get_region_from_ip, get_wikipedia_features, extract_article_title, get_past_week_views, predict_future_views
 import joblib
 import numpy as np
+
 # Global model variable
 loaded_sklearn_model = None
 
@@ -16,7 +17,7 @@ def load_sklearn_model_once():
     global loaded_sklearn_model
     try:
         # Load your scikit-learn model (adjust path as needed)
-        loaded_sklearn_model = joblib.load("C:/Users/Purav Shah/My Drive/MAC/Term-2/ADT/Project/Code/backend/service/logistic_regression_model.pkl")
+        loaded_sklearn_model = joblib.load("service/logistic_regression_model.pkl")
         print("✅ scikit-learn model loaded successfully")
     except Exception as e:
         print(f"❌ Failed to load scikit-learn model: {e}")
@@ -106,7 +107,7 @@ def search_in_model_service(search: str, db: Session, ip_address: str, user_agen
 
 def get_on_this_day_data():
     # Get the current date
-    today = datetime.today()
+    today = dt.today()
     
     # Get the current month and day
     month = today.month
@@ -175,10 +176,9 @@ def get_on_this_day_data():
         print(f"Error fetching data: {response.status_code}")
         return []
 
-
 def get_yesterdays_date():
     # Get yesterday's date
-    yesterday = datetime.now() - timedelta(1)
+    yesterday = dt.now() - timedelta(1)
     return yesterday.strftime('%Y/%m/%d')
 
 def get_top_trending_articles():

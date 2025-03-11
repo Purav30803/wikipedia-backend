@@ -3,7 +3,8 @@ import requests
 from loguru import logger
 import datetime
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import timedelta
+from datetime import datetime as dt
 from sklearn.linear_model import LinearRegression
 import numpy as np
 from urllib.parse import urlparse, unquote
@@ -113,7 +114,7 @@ def get_past_week_views(article_title: str):
     historical_data = []
     
     for i in range(7):
-        date = (datetime.now() - timedelta(days=i+1)).strftime('%Y%m%d')
+        date = (dt.now() - timedelta(days=i+1)).strftime('%Y%m%d')
         url = base_url.format(article_title, date, date)
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
         
