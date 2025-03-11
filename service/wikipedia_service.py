@@ -4,12 +4,11 @@ from loguru import logger
 from typing import Optional
 from models.search import SearchHistory
 import datetime
-from datetime import datetime
+from datetime import datetime, timedelta
 from config.env import Env
-from utils.wikipedia_helper import get_region_from_ip, get_wikipedia_features
+from utils.wikipedia_helper import get_region_from_ip, get_wikipedia_features, extract_article_title, get_past_week_views, predict_future_views
 import joblib
 import numpy as np
-
 # Global model variable
 loaded_sklearn_model = None
 
@@ -176,8 +175,6 @@ def get_on_this_day_data():
         print(f"Error fetching data: {response.status_code}")
         return []
 
-import requests
-from datetime import datetime, timedelta
 
 def get_yesterdays_date():
     # Get yesterday's date
@@ -215,3 +212,19 @@ def get_top_trending_articles():
         return top_articles
     else:
         return f"Error: {response.status_code}"
+
+
+def article_engagement(wiki_url):
+    article_title = extract_article_title(wiki_url)
+    past_data = get_past_week_views(article_title)
+    if len(past_data) == 0:
+        return {
+            "error": f"No pageviews data found for article {article_title}"
+        }
+    future_data = predict_future_views(past_data)
+    
+    return {
+        "article": article_title,
+        "past": past_data,
+        "future": future_data
+    }

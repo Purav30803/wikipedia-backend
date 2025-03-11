@@ -2,7 +2,12 @@ from typing import Optional
 import requests
 from loguru import logger
 import datetime
-from config.env import Env
+import pandas as pd
+from datetime import datetime, timedelta
+from sklearn.linear_model import LinearRegression
+import numpy as np
+from urllib.parse import urlparse, unquote
+
 
 
 def get_region_from_ip(ip_address: str) -> Optional[str]:
@@ -94,3 +99,56 @@ def get_wikipedia_features(article_url):
         "pageview_trend": recent_trend,
         "pageviews": pageviews
     }
+
+
+def extract_article_title(wiki_url: str):
+    """Extract the article title from a Wikipedia link."""
+    path = urlparse(wiki_url).path
+    title = path.split("/")[-1]  # Get the last part of the URL
+    return unquote(title.replace("_", " "))  # Convert URL encoding to normal text
+
+def get_past_week_views(article_title: str):
+    """Fetch past 7 days of views for a given Wikipedia article."""
+    base_url = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/{}/daily/{}/{}"
+    historical_data = []
+    
+    for i in range(7):
+        date = (datetime.now() - timedelta(days=i+1)).strftime('%Y%m%d')
+        url = base_url.format(article_title, date, date)
+        response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
+        
+        if response.status_code == 200:
+            data = response.json()
+            if "items" in data and len(data["items"]) > 0:
+                views = data["items"][0]["views"]
+                # put - beween date
+                date = date[:4] + "-" + date[4:6] + "-" + date[6:]
+                historical_data.append({"date": date, "views": views})
+    
+    return historical_data
+
+def predict_future_views(past_data):
+    """Predict engagement for the next 7 days using Linear Regression."""
+    df = pd.DataFrame(past_data)
+    df['date'] = pd.to_datetime(df['date'])
+    df['days_ago'] = (df['date'].max() - df['date']).dt.days  # Convert date to numeric
+
+    if len(df) < 2:
+        return []  # Not enough data for prediction
+
+    X = df[['days_ago']].values
+    y = np.log1p(df['views'].values)  # Apply log transformation to stabilize
+
+    model = LinearRegression().fit(X, y)
+
+    future_days = np.array([df['days_ago'].max() + i for i in range(1, 3)]).reshape(-1, 1)
+    predicted_views = model.predict(future_days)
+
+    future_data = []
+    for i, views in enumerate(predicted_views):
+        future_data.append({
+            "date": (df['date'].max() + timedelta(days=i+1)).strftime('%Y-%m-%d'),
+            "views": max(int(np.expm1(views)), 0)  # Convert back and prevent negatives
+        })
+    
+    return future_data

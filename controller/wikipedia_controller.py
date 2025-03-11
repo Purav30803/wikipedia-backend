@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, Request
 from sqlalchemy.orm import Session
 from db.connect_db import get_db
 from schema.wikipedia_schema import SearchModel
-from service.wikipedia_service import search_in_model_service,get_on_this_day_data,get_top_trending_articles
+from service.wikipedia_service import search_in_model_service,get_on_this_day_data,get_top_trending_articles,article_engagement
 from loguru import logger
 from fastapi import Header
 from typing import Optional
@@ -51,4 +51,15 @@ def top_trending():
         return result
     except Exception as e:
         logger.error(f"Failed to get top trending articles: {e}")
+        return {"error": str(e)}
+    
+@wikipedia_router.get("/engagement-chart", summary="Get engagement chart")
+def engagement_chart(wiki_url: str):
+    logger.info("Received request for engagement chart.")
+    try:
+        # Placeholder for engagement chart data
+        result = article_engagement(wiki_url)
+        return result
+    except Exception as e:
+        logger.error(f"Failed to get engagement chart: {e}")
         return {"error": str(e)}
