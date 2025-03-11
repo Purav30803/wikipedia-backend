@@ -33,7 +33,7 @@ app.add_middleware(CustomMiddleware)
 def read_root():
     database_url = Env.DATABASE_URL
     logger.info("API was accessed.")
-    return {"message": "Welcome to the API", "database_url": database_url}
+    return {"message": "Welcome to the API"}
 
 
 app.include_router(wikipedia_controller.wikipedia_router, prefix="/api/wikipedia", tags=["wiki"])
