@@ -9,7 +9,7 @@ import uuid
 class CustomMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
         # Restrict middleware processing to specific routes
-        if not (request.url.path.startswith("/api") or request.url.path.startswith("/docs")):
+        if not (request.url.path.startswith("/api") or request.url.path.startswith("/docs") or request.url.path.startswith("/openapi.json")):
             return JSONResponse(
                 status_code=404,
                 content={"message": "ACCESS DENIED"}
