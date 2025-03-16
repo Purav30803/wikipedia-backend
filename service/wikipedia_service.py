@@ -52,7 +52,7 @@ def search_in_model_service(search: str, db: Session, ip_address: str, user_agen
     if not search:
         return {"error": "Search query cannot be empty"}
     
-    if not search.startswith("https://en.wikipedia.org/wiki/") and not search.startswith("https://en.m  .wikipedia.org/wiki/")  and not search.startswith("en.wikipedia.org/wiki/") and not search.startswith("en.m.wikipedia.org/wiki/"):
+    if not search.startswith("https://en.wikipedia.org/wiki/") and not search.startswith("https://en.m.wikipedia.org/wiki/")  and not search.startswith("en.wikipedia.org/wiki/") and not search.startswith("en.m.wikipedia.org/wiki/"):
         return {"error": "Search query must be a valid Wikipedia URL"}
     
     # Check if the model is loaded
