@@ -190,7 +190,7 @@ def get_on_this_day_data():
 
 def get_yesterdays_date():
     # Get yesterday's date
-    yesterday = dt.now() 
+    yesterday = dt.now() - timedelta(days=1)
     return yesterday.strftime('%Y/%m/%d')
 
 def get_top_trending_articles():
