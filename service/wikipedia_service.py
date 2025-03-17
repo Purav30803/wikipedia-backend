@@ -197,6 +197,8 @@ def get_top_trending_articles():
     # Get yesterday's date dynamically
     yesterday_date = get_yesterdays_date()
     
+    print(f"Yesterday's date: {yesterday_date}")
+    
     # Construct the URL for the API request
     url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/{yesterday_date}"
     
