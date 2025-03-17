@@ -109,19 +109,29 @@ def search_in_model_service(search: str, db: Session, ip_address: str, user_agen
 
 def get_on_this_day_data():
     # Get the current date
-    today = dt.today()
-    
-    # Get the current month and day
-    month = today.month
-    day = today.day
-    
-    # Format the month and day to two digits (e.g., "03" for March)
+    # get date according to the timezone of the user
+    date = dt.now()
+    # get the current date
+    # today = date.strftime('%Y/%m/%d')
+    # get the current month and day
+    month = date.month
+    day = date.day
+    # format the month and day to two digits
     formatted_month = f"{month:02d}"
     formatted_day = f"{day:02d}"
-    
-    # Construct the API URL with the formatted month and day
+    # construct the API URL with the formatted month and day
     url = f"https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all/{formatted_month}/{formatted_day}"
+    # today = dt.today()
     
+    # # Get the current month and day
+    # month = today.month
+    # day = today.day
+    
+    # # Format the month and day to two digits (e.g., "03" for March)
+    # formatted_month = f"{month:02d}"
+    # formatted_day = f"{day:02d}"
+    
+    # Construct the API URL with the formatted month and day    
     # Send the request to the Wikipedia API
     response = requests.get(url)
     
@@ -180,7 +190,7 @@ def get_on_this_day_data():
 
 def get_yesterdays_date():
     # Get yesterday's date
-    yesterday = dt.now() - timedelta(1)
+    yesterday = dt.now() 
     return yesterday.strftime('%Y/%m/%d')
 
 def get_top_trending_articles():
