@@ -216,12 +216,15 @@ def get_top_trending_articles():
         # Extract top 5 trending articles from the response
         top_articles = []
         
-        for article_data in data.get("items", [])[0].get("articles", [])[:5]:
+        # skip first 2 items as they are not articles
+        
+        
+        for article_data in data.get("items", [])[0].get("articles", [])[2:7]:
             if isinstance(article_data, dict):
                 top_articles.append({
-                    "title": article_data.get("article", "Unknown Title"),
+                    "title": article_data.get("article", "Unknown Title").replace("_", " "),
                     "pageviews": article_data.get("views", 0),
-                    "rank": article_data.get("rank", "Unknown Rank"),
+                    "rank": article_data.get("rank")-2 or "Unknown Rank",
                     "article_url": f"https://en.wikipedia.org/wiki/{article_data.get('article', 'Unknown')}"
                 })
         
