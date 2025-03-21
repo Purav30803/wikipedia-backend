@@ -134,6 +134,7 @@ def get_on_this_day_data(timezone="UTC"):
             random.shuffle(shuffled_categories)
             
             data = []
+            seen_years = set()  # Track distinct years
 
             # Process each section of the API response
             for category, items in shuffled_categories:
@@ -141,6 +142,10 @@ def get_on_this_day_data(timezone="UTC"):
                     random.shuffle(items)  # Shuffle items in each category
 
                     for item in items:
+                        year = item.get("year", "")
+                        if not year or year in seen_years:
+                            continue  # Skip duplicate years
+
                         if "pages" in item and len(item["pages"]) > 0:
                             random.shuffle(item["pages"])  # Shuffle pages within each item
 
@@ -148,7 +153,7 @@ def get_on_this_day_data(timezone="UTC"):
                                 event = {
                                     "title": page.get("title", ""),
                                     "displayTitle": page.get("displaytitle", "").replace("<span class=\"mw-page-title-main\">", "").replace("</span>", ""),
-                                    "year": item.get("year", ""),
+                                    "year": year,
                                     "date": f"{formatted_month}/{formatted_day}",
                                     "text": item.get("text", ""),
                                     "extract": page.get("extract", ""),
@@ -176,12 +181,13 @@ def get_on_this_day_data(timezone="UTC"):
                                 # Only add events that have images
                                 if event["image"] is not None:
                                     data.append(event)
+                                    seen_years.add(year)  # Mark this year as used
 
-                                    # Stop once we have 5 items
+                                    # Stop once we have 5 unique years
                                     if len(data) >= 5:
                                         return data
 
-            return data  # Ensure we return at most 5 items
+            return data  # Ensure we return at most 5 unique year items
         else:
             print(f"Error fetching data: {response.status_code}")
             return []
@@ -189,6 +195,7 @@ def get_on_this_day_data(timezone="UTC"):
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
         return []
+
 
 def get_yesterdays_date():
     # Get yesterday's date

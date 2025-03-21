@@ -142,7 +142,7 @@ def predict_future_views(past_data):
 
     model = LinearRegression().fit(X, y)
 
-    future_days = np.array([df['days_ago'].max() + i for i in range(1, 3)]).reshape(-1, 1)
+    future_days = np.array([df['days_ago'].max() + i for i in range(1, 5)]).reshape(-1, 1)
     predicted_views = model.predict(future_days)
 
     future_data = []
