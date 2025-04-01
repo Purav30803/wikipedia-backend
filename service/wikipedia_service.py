@@ -224,24 +224,32 @@ def get_top_trending_articles():
     if response.status_code == 200:
         data = response.json()
         
-        # Extract top 5 trending articles from the response
+        # Extract exactly 4 valid articles, skipping "Special:Search"
         top_articles = []
-        
-        # skip first 2 items as they are not articles
-        
-        
-        for article_data in data.get("items", [])[0].get("articles", [])[2:7]:
+        articles = data.get("items", [])[0].get("articles", [])
+        total_count = 0
+        for article_data in articles[2:]:  # Start from index 2 as before
             if isinstance(article_data, dict):
+                title = article_data.get("article", "Unknown Title").replace("_", " ")
+                
+                if title == "Special:Search" or title == "Wikipedia:Featured pictures":
+                    continue
+                
+                total_count += 1
                 top_articles.append({
-                    "title": article_data.get("article", "Unknown Title").replace("_", " "),
+                    "title": title,
                     "pageviews": article_data.get("views", 0),
-                    "rank": article_data.get("rank")-2 or "Unknown Rank",
+                    "rank": total_count or "Unknown Rank",
                     "article_url": f"https://en.wikipedia.org/wiki/{article_data.get('article', 'Unknown')}"
                 })
-        
+
+            if len(top_articles) == 4:
+                break
+
         return top_articles
     else:
         return f"Error: {response.status_code}"
+
 
 
 def article_engagement(wiki_url):
