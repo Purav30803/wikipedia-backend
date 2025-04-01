@@ -119,12 +119,16 @@ def get_on_this_day_data(timezone="UTC"):
         # Extract the month and day
         formatted_month = f"{date.month:02d}"
         formatted_day = f"{date.day:02d}"
-        
+        headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    }
+    
         # Construct the API URL
-        url = f"https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all/{formatted_month}/{formatted_day}"
+        url = f"https://en.wikipedia.org/api/rest_v1/feed/onthisday/all/{formatted_month}/{formatted_day}"
+        print(url)
         
         # Fetch data from the API with a timeout
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=10, headers=headers)
         
         if response.status_code == 200:
             raw_data = response.json()
